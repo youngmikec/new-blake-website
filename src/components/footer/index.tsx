@@ -39,13 +39,13 @@ const Footer = () => {
                                 <p>blakedesignx@gmail.com</p>
                             </div>
                             <div className="flex justify-start">
-                                <div className="rounded-full p-3 bg-blue-900">
+                                <div className="rounded-full p-3 bg-[#021B79]">
                                     <FaFacebookF className="text-white" />
                                 </div>
-                                <div className="rounded-full p-3 bg-blue-900 mx-3">
+                                <div className="rounded-full p-3 bg-[#021B79] mx-3">
                                     <BsInstagram className="text-white" />
                                 </div>
-                                <div className="rounded-full p-3 bg-blue-900">
+                                <div className="rounded-full p-3 bg-[#021B79]">
                                     <AiOutlineTwitter className="text-white" />
                                 </div>
                             </div>
@@ -133,7 +133,7 @@ const Footer = () => {
                                     <input type="text" className="w-full border-0" placeholder='Enter your eamil here' />
                                 </div>
                                 <div>
-                                    <div className="rounded-full p-3 bg-blue-900">
+                                    <div className="rounded-full p-3 bg-[#021B79]">
                                         <FaArrowRight className="text-white" />
                                     </div>
                                 </div>

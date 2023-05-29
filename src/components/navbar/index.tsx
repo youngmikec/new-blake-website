@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 //icons
 import { FiSearch } from 'react-icons/fi';
 
-import logo from '../../assets/img/official-logo-1.png';
+import logo from '../../assets/img/logo-white.png';
 
 const Navbar = () => {
     return (
@@ -12,9 +12,9 @@ const Navbar = () => {
             <div className="w-full bg-transparent text-white">
                 <div className="mx-auto w-11/12 flex justify-between py-4">
                     <div>
-                        <div className="flex justify-start gap-2">
+                        <div className="flex justify-start">
                             <img src={logo} width="50px" height="50px" alt="logo" className="mr-[3px] my-auto" />
-                            <p>Blakedesignx</p>
+                            <p className="my-auto">Blakedesignx</p>
                         </div>
                     </div>
                     <div>

@@ -1,0 +1,9 @@
+.hero-bg {
+    background-image: url('../../assets/img/hero-bg.png');
+    background-color: #00000080;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    min-height: 30vh;
+}
