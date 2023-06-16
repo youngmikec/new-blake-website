@@ -4,10 +4,7 @@ import Gallary from "../pages/gallary";
 import AboutUs from "../pages/about-us";
 import Faqs from "../pages/faqs";
 
-
 //pages
-
-
 
 export type RouteType = {
     path: string;

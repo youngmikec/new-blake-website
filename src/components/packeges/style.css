@@ -1,0 +1,19 @@
+.packages {
+    background-color: #F8F7F7;
+}
+
+.package {
+    gap: 36px;
+}
+
+.diamond, .silver {
+    color: rgba(18, 18, 18, 0.8);;
+}
+
+.note {
+    color: rgba(18, 18, 18, 0.8);
+}
+
+.main-heading {
+    font-size: 34px;
+}

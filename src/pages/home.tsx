@@ -2,6 +2,12 @@ import React from 'react';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import HeroComp from '../components/hero-comp';
+import ReachOutComp from '../components/reach-out';
+import Offers from '../components/offers';
+import Works from '../components/works';
+import Packages from '../components/packeges';
+import FAQ from '../components/faq';
+import Testimonial from '../components/testimonials';
 
 const Home = () => {
     return (
@@ -13,7 +19,15 @@ const Home = () => {
                     title='Blake’s Design Studio'
                     subTitle='Transforming Ideas into Stunning Designs'
                 />
+
+                <ReachOutComp />
+                <Offers />
+                <Works />
+                <Packages />
+                <FAQ />
+                <Testimonial />
             </div>
+
         </>
     )
 }
