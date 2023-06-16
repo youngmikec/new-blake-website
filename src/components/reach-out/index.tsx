@@ -5,7 +5,7 @@ import './style.css'
 const ReachOutComp = () => {
     return(
         <>
-            <div className='reach-out w-full bg-white pt-40 pb-20'>
+            <div className='reach-out w-full bg-white mt-40 mb-20'>
                 <div className="mx-auto lg:w-11/12">
                     <div className="flex gap-32 flex-wrap content-between">
                         <div className="designer-thoughts lg:w-2/5">
