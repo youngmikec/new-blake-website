@@ -2,7 +2,12 @@ import './style.css'
 import circle from '../../assets/icons/circle.png'
 import triangle from '../../assets/icons/triangle.png'
 
-const FAQ = () => {
+type Props = {
+    isWhite: boolean;
+    isBlue: boolean;
+}
+
+const FAQ = ({isWhite, isBlue}: Partial<Props>) => {
     return (
         <>
             <div className="faq pt-9 w-full mb-24">
@@ -36,7 +41,12 @@ const FAQ = () => {
 
                         <div className="faq-footer text-right mr-60 mb-6">
                             <span className='text-white mr-8 font-normal text-base text-right'>Didn't see any related question?</span>
-                            <button className='bg-blue-900 text-white font-semibold text-xl py-2 mt-7 px-12 rounded-md'>Ask me</button>
+                            {
+                                isBlue && <button className='bg-blue-900 text-white font-semibold text-xl py-2 mt-7 px-12 rounded-md'>Ask me</button>
+                            }
+                            {
+                                isWhite && <button className='bg-white text-blue-900 font-semibold text-xl py-2 mt-7 px-12 rounded-md'>Ask me</button>
+                            }
                         </div>
                     </div>
                 </div>

@@ -24,7 +24,7 @@ const Home = () => {
                 <Offers />
                 <Works />
                 <Packages />
-                <FAQ />
+                <FAQ isWhite={false} isBlue={true} />
                 <Testimonial />
             </div>
 
