@@ -1,0 +1,23 @@
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    cursor: pointer;
+}
+
+.active {
+    color: #021B79;
+    border-bottom: 1px solid #021B79;
+}
+
+
