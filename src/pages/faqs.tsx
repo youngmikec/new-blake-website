@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import HeroComp from '../components/hero-comp';
+import FAQ from '../components/faq';
 
 const Faqs = () => {
     return (
@@ -13,6 +14,15 @@ const Faqs = () => {
                     title='Frequently Asked Questions'
                     subTitle="Find some answers to your regular question or rather as us "
                 />
+
+                <div className="text-center w-full bg-white mt-40 mb-36">
+                    <div className="mx-auto lg:w-11/12">
+                        <span className="heading small-heading mb-4 text-base font-medium">FAQS</span>
+                        <h2 className="heading main-heading text-4xl font-semibold mt-4 mb-12">We have all the answers to your question</h2>
+
+                        <FAQ isWhite={true} isBlue={false}/>
+                    </div>
+                </div>
             </div>
         </>
     )

@@ -1,0 +1,24 @@
+.our-values {
+    background: url(../../assets/img/laptop.png);
+    position: relative;
+}
+
+.our-values::after {
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.values-proper {
+    position: sticky;
+    z-index: 100;
+    padding: 30px 62px;
+}
+
+.rectangle {
+    margin-left: 95%;
+}

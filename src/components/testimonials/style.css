@@ -1,0 +1,18 @@
+.comment {
+    width: 480px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #4B4849;
+    margin-bottom: 8px;
+}
+
+.name {
+    color: rgba(18, 18, 18, 0.9);
+}
+
+.pic {
+    margin-top: -30px;
+    margin-left: 80%;
+}

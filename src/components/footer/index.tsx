@@ -14,7 +14,7 @@ import logo from '../../assets/img/official-logo-1.png';
 const Footer = () => {
     return (
         <>
-            <div className="w-full bg-white">
+            <div className="w-full bg-white mb-12">
                 <div className="mx-auto lg:w-11/12 py-4">
                     <div className="grid 
                         grid-cols-1 
