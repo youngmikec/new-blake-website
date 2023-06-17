@@ -20,7 +20,7 @@ function App() {
       <NotProtectedRoute>
             <div>
               <NavBar/>
-                <div className='bg-whte'>
+                <div className='bg-white'>
                   {Component}
                 </div>
               <Footer />
