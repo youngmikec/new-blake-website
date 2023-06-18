@@ -23,6 +23,20 @@
         margin-bottom: 40px;
     }
 
+    .testimonial {
+        width: 100%;
+    }
+
+    .testimonial .pic {
+        width: 30%;
+        margin-top: -20px;
+        margin-left: 80%;
+    }
+
+    .comment {
+        width: 100%;
+    }
+
     .main-heading {
         font-size: 28px;
         margin-top: 10px;

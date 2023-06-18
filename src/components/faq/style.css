@@ -41,6 +41,7 @@
 
     .question img {
         width: 5%;
+        margin-right: 12px;
     }
 
     .triangle {
@@ -50,6 +51,7 @@
     .question {
         margin: 0 0px;
         margin-bottom: 10px;
+        justify-content: flex-start;
     }
 
     .faq-footer {
