@@ -13,6 +13,8 @@ import flyer8 from '../../../assets/img/graphics-works/flyer8.png'
 import flyer9 from '../../../assets/img/graphics-works/flyer9.png'
 import flyer10 from '../../../assets/img/graphics-works/flyer10.png'
 
+import '../../tab/style.css'
+
 
 const GraphicsContent = () => {
     return (
@@ -25,52 +27,52 @@ const GraphicsContent = () => {
                         md:grid-cols-2 
                         lg:grid-cols-4 gap-6">
 
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={mockup2} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={simulation} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer1} alt="" />
                         </div>
-                        <div className=''>
-                            <img src={flyer5} alt="" />
+                        <div className='work-done'>
+                            <img src={mockups} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer3} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer5} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer4} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer1} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={talent_hunt} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer2} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer6} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer7} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer8} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer9} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={flyer10} alt="" />
                         </div>
-                        <div className=''>
+                        <div className='work-done'>
                             <img src={simulation} alt="" />
                         </div>
                     </div>

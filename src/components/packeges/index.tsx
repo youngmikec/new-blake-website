@@ -17,13 +17,13 @@ const Packages = () => {
                             <div className="package pb-10 flex flex-wrap content-center justify-center">
                                 <div className="gold plan px-5 py-6 bg-blue-900 text-white">
                                     <div className="package-head">
-                                        <h3 className='font-semibold text-xl pb-6'>Gold</h3>
+                                        <h3 className='font-semibold text-xl text-white pb-6'>Gold</h3>
                                     </div>
                                     <div className="package-body">
                                         <ul>
-                                            <li>Logo</li>
-                                            <li>Business card</li>
-                                            <li>Letter Head</li>
+                                            <li className='text-base font-normal text-white'>Logo</li>
+                                            <li className='text-base font-normal text-white'>Business card</li>
+                                            <li className='text-base font-normal text-white'>Letter Head</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -33,11 +33,11 @@ const Packages = () => {
                                     </div>
                                     <div className="package-body">
                                         <ul>
-                                            <li>Logo</li>
-                                            <li>Business card</li>
-                                            <li>Letter Head</li>
-                                            <li>Brand Guide</li>
-                                            <li>UI/UX</li>
+                                            <li className='text-base font-normal'>Logo</li>
+                                            <li className='text-base font-normal'>Business card</li>
+                                            <li className='text-base font-normal'>Letter Head</li>
+                                            <li className='text-base font-normal'>Brand Guide</li>
+                                            <li className='text-base font-normal'>UI/UX</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -47,11 +47,11 @@ const Packages = () => {
                                     </div>
                                     <div className="package-body">
                                         <ul>
-                                            <li>Logo</li>
-                                            <li>Brand Guide</li>
-                                            <li>UX Research</li>
-                                            <li>UI/UX Design</li>
-                                            <li>Web Development</li>
+                                            <li className='text-base font-normal'>Logo</li>
+                                            <li className='text-base font-normal'>Brand Guide</li>
+                                            <li className='text-lgbase font-normal'>UX Research</li>
+                                            <li className='text-base font-normal'>UI/UX Design</li>
+                                            <li className='text-base font-normal'>Web Development</li>
                                         </ul>
                                     </div>
                                 </div>
