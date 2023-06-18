@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 //icons
 import { FiSearch } from 'react-icons/fi';
 
 import logo from '../../assets/img/logo-white.png';
+import menu_btn from '../../assets/icons/menu.png'
+
+import './navbar.css'
 
 const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false)
+
+    const openSmallScreenMenu = () => {
+        setMenuOpen(!menuOpen)
+    }
+
     return (
         <>
             <div className="w-full bg-black text-white">
@@ -18,7 +27,10 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className=''>
-                        <div className="flex justify-between">
+                        <div onClick={openSmallScreenMenu} className="small-screen-menu-btn bg-white cursor-pointer">
+                            <img src={menu_btn} alt="" />
+                        </div>
+                        <div className="flex large-screen-menus justify-between">
                             <div className="mx-8 my-auto">
                                 <p>
                                     <Link to="/">
@@ -68,6 +80,48 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
+                {
+                    menuOpen && <div className="mx-auto pb-4 small-screen-menus w-11/12">
+                        <div className="flex flex-col">
+                            <div className="my-auto mb-2">
+                                <p>
+                                    <Link to="/">
+                                        <a className='text-sm'>
+                                            Home
+                                        </a>
+                                    </Link>
+                                </p>
+                            </div>
+                            <div className="my-auto mb-2">
+                                <p>
+                                    <Link to="/about-us">
+                                        <a className='text-sm'>
+                                            About
+                                        </a>
+                                    </Link>
+                                </p>
+                            </div>
+                            <div className="my-auto mb-2">
+                                <p>
+                                    <Link to="/gallary">
+                                        <a className='text-sm'>
+                                            Gallary
+                                        </a>
+                                    </Link>
+                                </p>
+                            </div>
+                            <div className="my-auto mb-2">
+                                <p>
+                                    <Link to="/faqs">
+                                        <a className='text-sm'>
+                                            FAQs
+                                        </a>
+                                    </Link>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                }
             </div>
         </>
     )

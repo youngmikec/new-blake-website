@@ -1,0 +1,14 @@
+.small-screen-menu-btn {
+    display: none;
+}
+
+@media (min-width: 360px) and (max-width: 920px) {
+    .large-screen-menus {
+        display: none;
+    }
+
+    .small-screen-menu-btn {
+        display: block;
+        width: 70%;
+    }
+}
