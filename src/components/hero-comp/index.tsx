@@ -26,7 +26,7 @@ const HeroComp = ({ preAmble, title, subTitle, isPreAmble }: Partial<Props>) => 
                                 <img src={leftEllipse} className='my-auto' alt="" />
                             </div>
                             <div >
-                                <h1 className="text-4xl  my-auto">{ preAmble }</h1>
+                                <h1 className="text-4xl preamble my-auto">{ preAmble }</h1>
                             </div>
                             <div className="flex justify-center items-center">
                                 <img src={rightEllipse} className='my-auto' alt="" />
@@ -34,7 +34,7 @@ const HeroComp = ({ preAmble, title, subTitle, isPreAmble }: Partial<Props>) => 
                         </div>
                     }
 
-                    <h1 className="text-6xl font-semibold my-8">{ title }</h1>
+                    <h1 className="text-6xl main-title font-semibold my-8">{ title }</h1>
                     <p className="my-8">{ subTitle }</p>
 
                     <div className="my-16">

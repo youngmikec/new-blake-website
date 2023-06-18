@@ -7,3 +7,13 @@
     background-blend-mode: overlay;
     min-height: 30vh;
 }
+
+@media (min-width: 360px) and (max-width: 920px) {
+    .preamble {
+        font-size: 20px;
+    }
+
+    .main-title {
+        font-size: 30px;
+    }
+}
