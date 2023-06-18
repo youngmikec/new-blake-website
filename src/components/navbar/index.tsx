@@ -17,7 +17,7 @@ const Navbar = () => {
                             <p className="my-auto">Blakedesignx</p>
                         </div>
                     </div>
-                    <div>
+                    <div className=''>
                         <div className="flex justify-between">
                             <div className="mx-8 my-auto">
                                 <p>

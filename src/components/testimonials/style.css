@@ -16,3 +16,24 @@
     margin-top: -30px;
     margin-left: 80%;
 }
+
+@media (min-width: 360px) and (max-width: 920px) {
+    .testimonials {
+        padding: 0 16px;
+        margin-bottom: 40px;
+    }
+
+    .main-heading {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+    }
+
+    .testimonial-list {
+        gap: 50px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+}

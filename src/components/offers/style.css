@@ -1,3 +1,16 @@
 .heading {
     color: rgba(18, 18, 18, 0.8);
 }
+
+@media (min-width: 360px) and (max-width: 920px) {
+    .offers {
+        padding: 0 16px;
+        margin-bottom: 40px;
+    }
+
+    .main-heading {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+    }
+}

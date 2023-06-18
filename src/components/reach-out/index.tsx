@@ -7,11 +7,11 @@ const ReachOutComp = () => {
         <>
             <div className='reach-out w-full bg-white mt-40 mb-20'>
                 <div className="mx-auto lg:w-11/12">
-                    <div className="flex gap-32 flex-wrap content-between">
+                    <div className="reach-out-flex flex gap-32 flex-wrap content-between">
                         <div className="designer-thoughts lg:w-2/5">
                             <img className='mb-10' src={designerThoughtImg} alt="" />
 
-                            <h2 className="heading mb-10 font-semibold text-5xl">Talk to a Design Expert</h2>
+                            <h2 className="main-header mb-10 font-semibold text-5xl">Talk to a Design Expert</h2>
                             <p className="paragragh paragraph1 mb-4 text-base">
                                 Design is not just about making things look good; 
                                 it's about creating impactful solutions that communicate messages, 
@@ -46,7 +46,7 @@ const ReachOutComp = () => {
                                 <textarea rows={6} className='block py-3 px-8 border border-gray-400 rounded-md w-full focus:outline-none' placeholder='text' />
                             </div>
 
-                            <button className='bg-blue-900 text-white font-semibold text-xl py-2 mt-7 px-12 rounded-md float-right'>Submit</button>
+                            <button className='button bg-blue-900 text-white font-semibold text-xl py-2 mt-7 px-12 rounded-md float-right'>Submit</button>
                         </div>
                     </div>
                 </div>

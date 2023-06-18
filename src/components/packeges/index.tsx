@@ -12,9 +12,9 @@ const Packages = () => {
                         </div>
                         <div className="all-packages pt-12 pb-14 lg:w-2/5">
                             <span className="heading small-heading text-base font-medium">Packages</span>
-                            <h2 className="heading main-heading font-semibold mt-4 pb-24">Choose a package to begin with</h2>
+                            <h2 className="heading main-heading font-semibold mt-4 mb-24">Choose a package to begin with</h2>
 
-                            <div className="package pb-10 flex flex-wrap content-center justify-center">
+                            <div className="package mb-10 flex flex-wrap content-center justify-center">
                                 <div className="gold plan px-5 py-6 bg-blue-900 text-white">
                                     <div className="package-head">
                                         <h3 className='font-semibold text-xl text-white pb-6'>Gold</h3>
@@ -58,7 +58,7 @@ const Packages = () => {
                             </div>
 
                             <span className="note text-xl font-medium">get up to 20% discount when you try any of the packages listed above</span>
-                            <button className='bg-blue-900 text-white font-semibold text-xl py-2 mt-7 px-12 rounded-md float-right'>Try now</button>
+                            <button className='button bg-blue-900 text-white font-semibold text-xl py-2 mt-7 px-12 rounded-md float-right'>Try now</button>
                         </div>
                     </div>
                 </div>

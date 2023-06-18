@@ -24,4 +24,16 @@ h3 {
     color: rgba(18, 18, 18, 0.7);
 }
 
+@media (min-width: 360px) and (max-width: 920px) {
+    /* .offers {
+        padding: 0 16px;
+    } */
+
+    .main-heading {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+    }
+}
+
 

@@ -35,10 +35,10 @@ const offers = [
 const Offers = () => {
     return (
         <>
-            <div className="offers w-full bg-white pb-20">
+            <div className="offers w-full bg-white mb-20">
                 <div className="mx-auto lg:w-11/12">
                     <span className="heading small-heading text-base font-medium">offer</span>
-                    <h2 className="heading main-heading text-4xl font-semibold mt-4 pb-9">What we can offer</h2>
+                    <h2 className="heading main-heading text-4xl font-semibold mt-4 mb-9">What we can offer</h2>
                 </div>
                 <Offer offers={offers} />
             </div>

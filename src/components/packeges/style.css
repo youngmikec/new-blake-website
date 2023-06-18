@@ -17,3 +17,29 @@
 .main-heading {
     font-size: 34px;
 }
+
+@media (min-width: 360px) and (max-width: 920px) {
+    .packages {
+        padding: 0 16px;
+        margin-bottom: 45px;
+    }
+
+    .main-heading {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+    }
+
+    .customer-packages {
+        gap: 40px;
+    }
+
+    .package {
+        gap: 18px;
+        margin-bottom: 20px;
+    }
+
+    .note {
+        font-size: 16px;
+    }
+}

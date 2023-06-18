@@ -10,6 +10,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* @media (min-width: 640px) {
+  body {
+    width: 100vw;
+  }
+} */
+
 code {
   font-family: 'Poppins', sans-serif;
 }

@@ -11,3 +11,18 @@
     font-family: 'Raleway';
     color: #585858;
 }
+
+@media (min-width: 360px) and (max-width: 920px) {
+    .offer {
+        margin-bottom: 6px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+}

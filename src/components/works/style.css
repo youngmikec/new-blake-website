@@ -1,0 +1,16 @@
+@media (min-width: 360px) and (max-width: 920px) {
+    .works {
+        padding: 0 16px;
+        margin-bottom: 40px;
+    }
+
+    .main-heading {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+    }
+
+    .works-display {
+        gap: 8px;
+    }
+}

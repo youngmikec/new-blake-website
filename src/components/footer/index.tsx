@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './style.css'
+
 //icons
 import { CiMail } from 'react-icons/ci';
 import { HiOutlinePhone } from 'react-icons/hi';
@@ -14,7 +16,7 @@ import logo from '../../assets/img/official-logo-1.png';
 const Footer = () => {
     return (
         <>
-            <div className="w-full bg-white mb-12">
+            <div className="footer w-full bg-white mb-12">
                 <div className="mx-auto lg:w-11/12 py-4">
                     <div className="grid 
                         grid-cols-1 
