@@ -1,0 +1,17 @@
+@media (min-width: 360px) and (max-width: 920px) {
+    .faqs {
+        padding: 0 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .main-heading {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+    }
+
+    .asked {
+        margin: 0 -16px;
+    }
+}
