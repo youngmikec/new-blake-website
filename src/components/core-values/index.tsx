@@ -13,7 +13,7 @@ const CoreValues = () => {
                         <div className="values-proper">
                             <img src={rectangle} alt="" />
                             <div className="essay mx-40">
-                                <h2 className='text-white text-4xl font-semibold mb-9'>Brief</h2>
+                                <h2 className='text-white head text-4xl font-semibold mb-9'>Brief</h2>
                                 <p className="first text-white text-xl font-semibold mb-7">
                                     Blakedesignx is a top notch company in the design world that delivers the best of quality designs to clients, bringing creativity to reality. we also help our client to maintain its identity to their audience.
                                 </p>
@@ -21,7 +21,7 @@ const CoreValues = () => {
                                     When it comes to design, we define your unique value proposition: Clearly articulate what sets you apart from other designers. Identify your strengths, areas of expertise, and the value you can provide to clients. Highlight your unique style, approach, or specializations that make you stand out
                                 </p>
 
-                                <h2 className='text-white text-4xl font-semibold mb-2'>Mission</h2>
+                                <h2 className='text-white head text-4xl font-semibold mb-2'>Mission</h2>
                                 <p className="third text-white text-xl font-semibold mb-24">
                                     We aspire to be the number one African innovation and technology brand, emerging from the South East.
                                     To connect people and technology, help people to access the best technology at a click of button and also delivering business solutions for the web and mobile world with digital strategies.

@@ -22,3 +22,45 @@
 .rectangle {
     margin-left: 95%;
 }
+
+@media (min-width: 360px) and (max-width: 920px) {
+    .values {
+        padding: 0 16px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .main-heading {
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+    }
+
+    .our-values {
+        margin: 0 -16px;
+        /* padding: 0 16px; */
+    }
+
+    .values-proper {
+        padding: 20px 16px;
+    }
+
+    .essay {
+        margin: 0;
+    }
+
+    .head {
+        margin-bottom: 18px;
+        font-size: 28px;
+    }
+
+    .first, .second, .third {
+        margin-bottom: 14px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .rectangle {
+        margin-left: 85%;
+    }
+}
