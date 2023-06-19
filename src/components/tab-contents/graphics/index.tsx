@@ -21,7 +21,7 @@ const GraphicsContent = () => {
         <>
             <div className="w-full bg-white mb-12">
                 <div className="">
-                    <div className="grid 
+                    <div className="grid projects
                         grid-cols-1 
                         sm:grid-cols-2 
                         md:grid-cols-2 

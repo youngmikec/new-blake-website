@@ -21,6 +21,13 @@
         /* width: 0%; */
     }
 
+    .offer-place {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
     .title {
         font-size: 18px;
         margin-bottom: 6px;
