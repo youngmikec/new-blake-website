@@ -6,15 +6,15 @@ const Packages = () => {
         <>
             <div className="packages w-full mb-24">
                 <div className="mx-auto lg:w-11/12">
-                    <div className="customer-packages gap-24 flex flex-wrap">
+                    <div className="customer-packages gap-24 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
                         <div className="customer">
                             <img src={happy_customer} alt="" />
                         </div>
-                        <div className="all-packages pt-12 pb-14 lg:w-2/5">
+                        <div className="all-packages pt-12 pb-14 w-full">
                             <span className="heading small-heading text-base font-medium">Packages</span>
                             <h2 className="heading main-heading font-semibold mt-4 mb-24">Choose a package to begin with</h2>
 
-                            <div className="package mb-10 flex flex-wrap content-center justify-center">
+                            <div className="package mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                                 <div className="gold plan px-5 py-6 bg-blue-900 text-white">
                                     <div className="package-head">
                                         <h3 className='font-semibold text-xl text-white pb-6'>Gold</h3>

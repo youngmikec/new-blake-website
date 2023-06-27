@@ -39,8 +39,8 @@ const Offers = () => {
                 <div className="mx-auto lg:w-11/12">
                     <span className="heading small-heading text-base font-medium">offer</span>
                     <h2 className="heading main-heading text-4xl font-semibold mt-4 mb-9">What we can offer</h2>
+                    <Offer offers={offers} />
                 </div>
-                <Offer offers={offers} />
             </div>
         </>
     )

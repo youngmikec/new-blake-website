@@ -15,14 +15,13 @@ const Home = () => {
     return (
         <>
             <div>
-                <div className="mx-auto">
-                    <HeroComp 
-                        isPreAmble={true}
-                        preAmble='Welcome to'
-                        title='Blake’s Design Studio'
-                        subTitle='Transforming Ideas into Stunning Designs'
-                    />
-
+                <HeroComp 
+                    isPreAmble={true}
+                    preAmble='Welcome to'
+                    title='Blake’s Design Studio'
+                    subTitle='Transforming Ideas into Stunning Designs'
+                />
+                <div className="mx-auto w-11/12">
                     <ReachOutComp />
                     <Offers />
                     <Works />

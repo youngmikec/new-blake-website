@@ -7,7 +7,7 @@ import './style.css'
 import { CiMail } from 'react-icons/ci';
 import { HiOutlinePhone } from 'react-icons/hi';
 import { FaFacebookF } from 'react-icons/fa'; 
-import { BsInstagram } from 'react-icons/bs'; 
+import { BsBehance, BsInstagram } from 'react-icons/bs'; 
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaArrowRight } from 'react-icons/fa';
 
@@ -42,13 +42,19 @@ const Footer = () => {
                             </div>
                             <div className="flex justify-start">
                                 <div className="rounded-full p-3 bg-[#021B79]">
-                                    <FaFacebookF className="text-white" />
+                                    <a href="https://www.behance.net/joshuachinonso" target="_blank" rel="noopener noreferrer">
+                                        <BsBehance className="text-white" />
+                                    </a>
                                 </div>
                                 <div className="rounded-full p-3 bg-[#021B79] mx-3">
-                                    <BsInstagram className="text-white" />
+                                    <a href="https://www.instagram.com/blakedesignx" target="_blank" rel="noopener noreferrer">
+                                        <BsInstagram className="text-white" />
+                                    </a>
                                 </div>
                                 <div className="rounded-full p-3 bg-[#021B79]">
-                                    <AiOutlineTwitter className="text-white" />
+                                    <a href="https://twitter.com/Blake_jrs?t=WPmLkIhiKXIivYHJhcHUdg&s=09" target="_blank" rel="noopener noreferrer">
+                                        <AiOutlineTwitter className="text-white" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
