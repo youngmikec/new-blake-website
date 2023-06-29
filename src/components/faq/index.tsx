@@ -21,11 +21,19 @@ const FaqItem = ({ data }: ItemProps) => {
 
     return (
         <>
-            <div className=" mb-5 mx-60 py-4 px-6 border border-white rounded-md cursor-pointer" onClick={()=> toggle()}>
-                <div className="question mb-4">
-                    <img src={circle} alt="" />
-                    <span className='text-white font-semibold text-base'>{data.question}</span>
-                    <img className={`triangle ${isOpen && 'rotate-180 delay-100 ease-in-out'}`} src={triangle} alt="" />
+            <div className="w-full mb-5 mx-auto py-4 px-6 border border-white rounded-md cursor-pointer" onClick={()=> toggle()}>
+                <div className="mb-4 flex justify-between">
+                    <div className="flex justify-start gap-4">
+                        <div>
+                            <img src={circle} width="15px" height="15px" className='my-auto' alt="" />
+                        </div>
+                        <div>
+                            <span className='text-white font-semibold text-base'>{data.question}</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img className={`triangle ${isOpen && 'rotate-180 delay-100 ease-in-out'}`} src={triangle} alt="" />
+                    </div>
                 </div>
                 {
                     isOpen &&
@@ -73,14 +81,14 @@ const FAQ = ({isWhite, isBlue}: Partial<Props>) => {
                         <div className="faq-footer text-right mr-60 mb-6">
                             <span className='text-white mr-8 font-normal text-base text-right'>Didn't see any related question?</span>
                             {
-                                isBlue && <button className='button bg-blue-900 text-white font-semibold text-xl py-2 mt-7 px-12 rounded-md'>
+                                isBlue && <button className='button bg-blue-900 text-white font-semibold text-xl py-2 mt-7 px-6 rounded-md'>
                                     <a className='' href='https://wa.me/+2348107389617' target='_blank'>
                                         Ask me
                                     </a>
                                 </button>
                             }
                             {
-                                isWhite && <button className='button bg-white text-blue-900 font-semibold text-xl py-2 mt-7 px-12 rounded-md'>
+                                isWhite && <button className='button bg-white text-blue-900 font-semibold text-xl py-2 mt-7 px-6  rounded-md'>
                                     <a className='' href='https://wa.me/+2348107389617' target='_blank'>
                                         Ask me
                                     </a>
