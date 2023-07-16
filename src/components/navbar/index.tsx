@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 //icons
 import { FiSearch } from 'react-icons/fi';
@@ -10,6 +10,9 @@ import menu_btn from '../../assets/icons/menu.png'
 import './navbar.css'
 
 const Navbar = () => {
+    const location = useLocation();
+    const { pathname } = location;
+
     const [menuOpen, setMenuOpen] = useState(false)
 
     const openSmallScreenMenu = () => {
@@ -32,7 +35,7 @@ const Navbar = () => {
                         </div>
                         <div className="flex large-screen-menus justify-between">
                             <div className="mx-8 my-auto">
-                                <p>
+                                <p className={`${ pathname === '/' && 'border-b-[1px] border-b-white'}`}>
                                     <Link to="/">
                                         <a className='text-sm'>
                                             Home
@@ -41,7 +44,7 @@ const Navbar = () => {
                                 </p>
                             </div>
                             <div className="mx-8 my-auto">
-                                <p>
+                                <p className={`${ pathname === '/about-us' && 'border-b-[1px] border-b-white'}`}>
                                     <Link to="/about-us">
                                         <a className='text-sm'>
                                             About
@@ -50,7 +53,7 @@ const Navbar = () => {
                                 </p>
                             </div>
                             <div className="mx-8 my-auto">
-                                <p>
+                                <p className={`${ pathname === '/gallary' && 'border-b-[1px] border-b-white'}`}>
                                     <Link to="/gallary">
                                         <a className='text-sm'>
                                             Gallary
@@ -59,7 +62,7 @@ const Navbar = () => {
                                 </p>
                             </div>
                             <div className="mx-8 my-auto">
-                                <p>
+                                <p className={`${ pathname === '/faqs' && 'border-b-[1px] border-b-white'}`}>
                                     <Link to="/faqs">
                                         <a className='text-sm'>
                                             FAQs

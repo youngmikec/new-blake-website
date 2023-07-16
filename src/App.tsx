@@ -23,7 +23,7 @@ function App() {
               <NavBar/>
                 <div className='bg-white'>
                   {Component}
-                  <a className='p-6 bg-[#25D366] text-white rounded-full fixed bottom-10 right-4 z-10' href='https://wa.me/+2348107389617' target='_blank'>
+                  <a className='p-6 bg-[#25D366] text-white rounded-full fixed bottom-10 right-4 z-50' href='https://wa.me/+2348107389617' target='_blank'>
                     <BsWhatsapp />
                   </a>
                 </div>

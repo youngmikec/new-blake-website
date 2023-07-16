@@ -78,17 +78,17 @@ const FAQ = ({isWhite, isBlue}: Partial<Props>) => {
                             })
                         }
 
-                        <div className="faq-footer text-right mr-60 mb-6">
-                            <span className='text-white mr-8 font-normal text-base text-right'>Didn't see any related question?</span>
+                        <div className="flex justify-start mb-6">
+                            <span className='text-white mx-auto sm:mr-4 md:mr-7 lg:mr-8 font-normal text-base my-auto'>Didn't see any related question?</span>
                             {
-                                isBlue && <button className='button bg-blue-900 text-white font-semibold text-xl py-2 mt-7 px-6 rounded-md'>
+                                isBlue && <button className='button bg-blue-900 text-white font-semibold text-sm md:text-lg lg:text-xl py-2 mt-7 px-3 sm:px-4 md:px-5 lg:px-6 rounded-md'>
                                     <a className='' href='https://wa.me/+2348107389617' target='_blank'>
                                         Ask me
                                     </a>
                                 </button>
                             }
                             {
-                                isWhite && <button className='button bg-white text-blue-900 font-semibold text-xl py-2 mt-7 px-6  rounded-md'>
+                                isWhite && <button className='button bg-white text-blue-900 font-semibold text-sm md:text-lg lg:text-xl py-2 mt-7 px-3 sm:px-4 md:px-5 lg:px-6  rounded-md'>
                                     <a className='' href='https://wa.me/+2348107389617' target='_blank'>
                                         Ask me
                                     </a>

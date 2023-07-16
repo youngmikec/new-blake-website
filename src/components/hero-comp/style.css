@@ -5,7 +5,8 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    min-height: 30vh;
+    height: 750px;
+    /* padding-bottom: 5rem; */
 }
 
 @media (min-width: 360px) and (max-width: 920px) {
