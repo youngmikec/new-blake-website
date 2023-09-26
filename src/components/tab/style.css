@@ -10,6 +10,9 @@ ul li {
 
 .work-done {
     transition: all 0.4s ease-in-out;
+    width: 283px !important;
+    height: 252px !important;
+    margin: 10px;
 }
 
 .work-done:hover {

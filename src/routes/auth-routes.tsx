@@ -17,7 +17,7 @@ const authRoutes: RouteType[] = [
         component: <Home />,
     },
     {
-        path: '/gallary',
+        path: '/gallery',
         component: <Gallary />,
     },
     {

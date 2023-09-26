@@ -53,10 +53,11 @@ const Navbar = () => {
                                 </p>
                             </div>
                             <div className="mx-8 my-auto">
-                                <p className={`${ pathname === '/gallary' && 'border-b-[1px] border-b-white'}`}>
-                                    <Link to="/gallary">
+                                <p className={`${ pathname === '/gallery' && 'border-b-[1px] border-b-white'}`}>
+                                    <Link to="/gallery">
                                         <a className='text-sm'>
-                                            Gallary
+                                        Gallery
+
                                         </a>
                                     </Link>
                                 </p>
